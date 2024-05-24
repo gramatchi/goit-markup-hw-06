@@ -301,6 +301,7 @@ img {
 }
 .logo-footer {
   display: inline-block; 
+  margin-bottom: 16px;
 }
 .footer-text {
   font-weight: 400;
@@ -312,9 +313,6 @@ img {
   width: 264px;
 }
 
-.logo-looter{
-  margin-bottom: 16px;
-}
 
 .logo-white {
   color: #f4f4fd;
