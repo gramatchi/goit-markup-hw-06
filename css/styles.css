@@ -12,10 +12,10 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   margin: 0;
 }
-p{
+p {
   margin: 0;
 }
 
@@ -26,7 +26,7 @@ ol {
   padding-left: 0;
 }
 
-img{
+img {
   display: block;
   max-width: 100%;
   min-height: auto;
@@ -34,12 +34,11 @@ img{
 
 .container {
   width: 1440px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
   outline-offset: -2px;
-
 }
 /* #region header */
 .logo {
@@ -50,6 +49,8 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header .container {
   display: flex;
@@ -64,20 +65,20 @@ img{
   flex-grow: 1;
 }
 .logo-black {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 .header {
 }
 
 .header-link {
-  color: #2E2F42;
+  color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
 .header-item-link:focus,
 .header-item-link:hover {
-  color: #404BBF;
+  color: #404bbf;
 }
 .header-list {
   display: flex;
@@ -98,10 +99,12 @@ img{
   font-style: normal;
 }
 .header-address-list {
+  display: flex;
+  gap: 40px;
 }
 .header-address-link:focus,
 .header-address-link:hover {
-  color: #404BBF;
+  color: #404bbf;
 }
 .header-address-list-item {
 }
@@ -118,6 +121,8 @@ img{
 .hero {
   background-color: #2e2f42;
   text-align: center;
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 .hero-header {
   font-family: "Roboto", sans-serif;
@@ -127,6 +132,7 @@ img{
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-bottom: 48px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -137,20 +143,26 @@ img{
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 /* #endregion /hero*/
 
 /* #region /features*/
 .features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .features-title {
 }
 .features-list {
+  display: flex;
+  gap: 24px;
 }
 .feature-item {
 }
@@ -171,25 +183,33 @@ img{
 /* #region team*/
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   font: 700 36px / 1.11 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize
+  text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 .team-item {
   background-color: #ffffff;
 }
 .team-image {
+  padding-bottom: 32px;
 }
 .team-name {
   font: 500 20px / 1.2 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .team-description {
   font: 400 16px / 1.5 "Roboto", sans-serif;
@@ -204,26 +224,35 @@ img{
 }
 .portfolio-title {
   font: 700 36px / 1.11 "Roboto", sans-serif;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 48px;
+  padding-bottom: 120px;
 }
 .portfolio-item {
+  width: calc((100% - 48px * 2) / 3);
 }
 .portfolio-image {
+  padding-bottom: 32px;
 }
 .portfolio-name {
   font: 500 20px / 1.2 "Roboto", sans-serif;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-description {
   font: 400 16px / 1.5 "Roboto", sans-serif;
-letter-spacing: 0.02em;
-color: #434455;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding-bottom: 32px;
 }
 /* #endregion /portfolio*/
 
@@ -232,7 +261,8 @@ color: #434455;
   color: #ffffff;
   background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
-  line-height: 1.17
+  line-height: 1.17;
+  padding: 100px 0;
 }
 .footer-link {
   font-weight: 700;
@@ -250,11 +280,10 @@ color: #434455;
   color: #f4f4fd;
 }
 
-.logo-white{
-  color: #f4f4fd
+.logo-white {
+  color: #f4f4fd;
 }
 /* #endregion /footer*/
-
 
 .visually-hidden {
   position: absolute;
