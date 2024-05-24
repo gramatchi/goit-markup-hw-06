@@ -73,6 +73,7 @@ img {
 }
 
 .header-link {
+
   color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
@@ -87,6 +88,8 @@ img {
   gap: 40px;
 }
 .header-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -218,12 +221,15 @@ img {
   
 }
 .team-item {
-  background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
-  border-radius: 0px 0px 4px 4px;
+
 }
 .team-image {
-  padding-bottom: 32px;
+  background-color: #FFFFFF;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: #fff;
 }
 .team-name {
   font: 500 20px / 1.2 "Roboto", sans-serif;
@@ -294,15 +300,8 @@ img {
   line-height: 1.17;
   padding: 100px 0;
 }
-.footer-link {
+.logo-footer {
   display: inline-block; 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-  
 }
 .footer-text {
   font-weight: 400;
