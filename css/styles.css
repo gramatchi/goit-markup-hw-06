@@ -37,7 +37,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
   outline-offset: -2px;
 }
 /* #region header */
@@ -128,6 +128,13 @@ img {
   text-align: center;
   padding-bottom: 188px;
   padding-top: 188px;
+  background-image: 
+  linear-gradient(
+	to bottom, 
+	rgba(46, 47, 66, 0.7), 
+	rgba(46, 47, 66, 0.7)
+	),
+  url(../images/hero/image.jpg)
 }
 .hero-header {
   font-family: "Roboto", sans-serif;
