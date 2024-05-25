@@ -33,7 +33,7 @@ img {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -55,14 +55,13 @@ img {
   display: flex;
   align-items: center;
   width: 1158px;
-    padding: 0 15px 0 15px
+  padding: 0 15px 0 15px
 }
 
 .header-nav {
   display: flex;
   align-items: center;
   margin-right: 156px;
-  justify-content: space-between;
   flex-grow: 1;
 }
 .logo-black {
@@ -138,7 +137,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   max-width: 496px; 
   margin-left: auto;
   margin-right: auto;
@@ -217,8 +216,8 @@ img {
   justify-content: center;
 }
 .team-card{
-  padding: 32px 0 
-  
+  padding: 32px 0; 
+  background-color: #fff;
 }
 .team-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -263,7 +262,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-bottom: 120px;
 }
 .portfolio-card{
   padding: 32px 16px;
@@ -275,7 +273,7 @@ img {
 
 }
 .portfolio-image {
-  padding-bottom: 32px;
+
 }
 .portfolio-name {
   font: 500 20px / 1.2 "Roboto", sans-serif;
@@ -287,7 +285,6 @@ img {
   font: 400 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
 }
 /* #endregion /portfolio*/
 
@@ -309,7 +306,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-bottom: 16px;
   width: 264px;
 }
 
