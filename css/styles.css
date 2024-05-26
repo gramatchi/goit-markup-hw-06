@@ -81,8 +81,8 @@ img {
   letter-spacing: 0.02em;
 }
 .link-studio {
-  position: relative;
   color: #404bbf;
+  position: relative;
 }
 .link-studio::after {
   content: "";
