@@ -151,7 +151,10 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/image.jpg);
-  background-size: cover;
+  background-size: contain;
+  max-width: 1440px; 
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-header {
   font-family: "Roboto", sans-serif;
@@ -290,10 +293,12 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
+  
 }
 .social-link:hover,
 .social-link:focus{
   background-color: #31D0AA;
+  background-color: #404bbf;
 }
 
 .social-link {
@@ -364,6 +369,8 @@ img {
 .footer-content {
   display: flex;
   align-items: flex-start;
+  align-items: baseline;
+  margin-right: 120px;
 }
 .footer {
   color: #ffffff;
@@ -384,7 +391,9 @@ img {
   color: #f4f4fd;
   width: 264px;
 }
-
+.footer-social-list{
+  gap: 16px;
+}
 .logo-white {
   color: #f4f4fd;
 }
