@@ -346,6 +346,10 @@ img {
 /* #endregion /portfolio*/
 
 /* #region footer*/
+.footer-content {
+  display: flex;
+  align-items: flex-start; 
+}
 .footer {
   color: #ffffff;
   background-color: #2e2f42;
@@ -368,6 +372,24 @@ img {
 
 .logo-white {
   color: #f4f4fd;
+}
+.footer-container {
+  
+  width: 264px;
+  display: inline-block;
+  margin-left: 256px;
+  margin-right: 120px;
+}
+
+.social-footer {
+  display: inline-block;
+}
+
+.social-title {
+  margin-bottom: 16px;
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
 /* #endregion /footer*/
 
