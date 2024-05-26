@@ -70,6 +70,7 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-link {
@@ -90,6 +91,8 @@ img {
   display: block;
   position: absolute;
   margin-top: 20px;
+  left: 0;
+  bottom: -1px; 
 }
 
 .header-item-link:focus,
@@ -151,7 +154,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/image.jpg);
-  background-size: contain;
+    background-size: cover; 
   max-width: 1440px; 
   background-repeat: no-repeat;
   background-position: center;
@@ -413,6 +416,10 @@ img {
   font: 500 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #fff;
+}
+.social-link-footer:focus,
+.social-link-footer:hover{
+  background-color: #31d0aa;
 }
 /* #endregion /footer*/
 
