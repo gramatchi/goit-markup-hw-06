@@ -401,7 +401,6 @@ img {
   display: flex;
   align-items: flex-start;
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer {
   color: #ffffff;
@@ -409,7 +408,6 @@ img {
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
   padding: 100px 0;
-  margin-right: 120px;
 }
 
 .footer-text {
@@ -429,7 +427,6 @@ img {
 .footer-container {
   width: 264px;
   display: inline-block;
-  margin-left: 256px;
   margin-right: 120px;
 }
 
