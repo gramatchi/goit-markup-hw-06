@@ -414,6 +414,7 @@ img {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 120px
 }
 .footer-text {
   font-weight: 400;
