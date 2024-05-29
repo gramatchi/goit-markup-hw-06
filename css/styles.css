@@ -583,22 +583,26 @@ input::placeholder {
   font: 400 12px / 1.17 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: block; 
+}
+.input-container{
+  position: relative;
 }
 .input-name {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  position: relative;
 }
 
 .name-icon {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 4px;
+  position: absolute;
+  left: 16px;
+  top: 50%;
   width: 18px;
   height: 24px;
+  transform: translateY(-50%);
 }
 .modal-phone {
 }
@@ -615,6 +619,12 @@ input::placeholder {
 }
 .phone-icon {
   fill: #2e2f42;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  width: 18px;
+  height: 24px;
+  transform: translateY(-50%);
 }
 .modal-email {
 }
@@ -631,6 +641,12 @@ input::placeholder {
 }
 .email-icon {
   fill: #2e2f42;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  width: 18px;
+  height: 24px;
+  transform: translateY(-50%);
 }
 .modal-comment {
 }
@@ -665,7 +681,6 @@ input::placeholder {
 }
 .modal-button {
   display: block;
-  gap: 10px;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
@@ -677,6 +692,8 @@ input::placeholder {
   text-align: center;
   align-items: center;
   color: #fff;
+  margin: auto;
+  margin-top: 24px;
 }
 /* #endregion /modal*/
 
