@@ -580,9 +580,10 @@ input::placeholder {
   margin-bottom: 16px;
 }
 .form-modal{
-  
+
 }
 .modal-fields {
+  margin-bottom: 8px;
 }
 .modal-name {
 }
