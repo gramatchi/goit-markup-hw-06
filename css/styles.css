@@ -702,7 +702,7 @@ input::placeholder {
 }
 
 input[type="checkbox"]:checked + .user-privacy-label .user-privacy-span {
-  background-color: var(--checked-background-color);
+  background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
 }
