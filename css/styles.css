@@ -587,7 +587,7 @@ input::placeholder {
 }
 .modal-name {
 }
-.name-text {
+.label-text {
   font: 400 12px / 1.17 "Roboto", sans-serif;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -610,7 +610,7 @@ input::placeholder {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.name-icon {
+.form-icon {
   position: absolute;
   left: 16px;
   top: 50%;
@@ -621,55 +621,16 @@ input::placeholder {
 }
 .modal-phone {
 }
-.phone-text {
-  font: 400 12px / 1.17 "Roboto", sans-serif;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
-.input-phone {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  width: 360px;
-  height: 40px;
-}
-.phone-icon {
-  fill: #2e2f42;
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  width: 18px;
-  height: 24px;
-  transform: translateY(-50%);
-}
+
+
 .modal-email {
 }
-.email-text {
-  font: 400 12px / 1.17 "Roboto", sans-serif;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
-.input-email {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  width: 360px;
-  height: 40px;
-}
-.email-icon {
-  fill: #2e2f42;
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  width: 18px;
-  height: 24px;
-  transform: translateY(-50%);
-}
+
+
+
 .modal-comment {
 }
-.text-comment {
-  font: 400 12px / 1.17 "Roboto", sans-serif;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
+
 .comment-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
