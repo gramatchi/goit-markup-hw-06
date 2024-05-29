@@ -505,48 +505,179 @@ input::placeholder {
 
 /* #region modal*/
 .modal-overlay {
-  background-color: rgba(46, 47, 66, 0.4);
+  background: rgba(46, 47, 66, 0.4);
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
   z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opasity 250ms ease-in-out;
 }
-
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
 .modal {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
-    0 2px 1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #fcfcfc;
+  position: absolute;
   border-radius: 4px;
   width: 408px;
   height: 584px;
-  padding: 72px 24px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fcfcfc;
+  padding: 72px 24px 24px 24px;
 }
-.close-modal-btn{
-  border-radius: 100%;
-  fill: #e7e9fc;
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
-  justify-content: center;
+.close-modal-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
-
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-modal-icon{
+.close-modal-btn:hover {
+  background-color: #404bbf;
+  fill: #ffffff;
+  border: none;
+}
+.close-modal-btn:focus {
+  background-color: #404bbf;
+  fill: #ffffff;
+  border: none;
+}
+.close-modal-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-modal-icon:hover {
+  fill: #ffffff;
+}
+.close-modal-icon:focus {
+  fill: #ffffff;
+}
+
+.modal-text {
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.modal-fields {
+}
+.modal-name {
+}
+.name-text {
+  font: 400 12px / 1.17 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.input-name {
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.name-icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 4px;
+  width: 18px;
+  height: 24px;
+}
+.modal-phone {
+}
+.phone-text {
+  font: 400 12px / 1.17 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.input-phone {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.phone-icon {
   fill: #2e2f42;
-  
 }
-
-.close-modal-icon:hover,
-.close-modal-icon:focus{
-  stroke-width: 1px;
-  stroke: #404bbf;
-  fill:#fff;
+.modal-email {
 }
+.email-text {
+  font: 400 12px / 1.17 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.input-email {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.email-icon {
+  fill: #2e2f42;
+}
+.modal-comment {
+}
+.text-comment {
+  font: 400 12px / 1.17 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.comment-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 120px;
+}
+.visually-hidden {
+}
+.user-privacy-label {
+  font: 400 12px / 1.17 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.user-privacy-span {
 
+}
+.user-privacy-icon {
+}
+.user-privacy-link {
+  font: 400 12px / 1.33 "Roboto", sans-serif;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+.modal-button {
+  display: block;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
 /* #endregion /modal*/
 
 .visually-hidden {
