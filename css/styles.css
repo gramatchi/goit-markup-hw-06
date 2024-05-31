@@ -1,45 +1,4 @@
-body {
-  font-family: "Roboto", sans-serif;
-  background: #fff;
-  color: #434455;
-}
 
-a {
-  text-decoration: none;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-p {
-  margin: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  min-height: auto;
-}
-
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  /*outline: 2px solid red;*/
-  outline-offset: -2px;
-}
 
 /* #region header */
 .logo {
@@ -708,15 +667,4 @@ input[type="checkbox"]:checked + .user-privacy-label .user-privacy-span {
 }
 /* #endregion /modal*/
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
