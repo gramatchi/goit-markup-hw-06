@@ -36,4 +36,21 @@
     pointer-events: none;
   }
   /* #endregion /header */
+  /* #region hero*/
+  .hero .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 768px;
+  }
+  .hero-header {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
 }

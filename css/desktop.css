@@ -38,5 +38,25 @@
   .header-address {
     padding-top:0px;
   }
+  .header-address-link{
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+  }
   /* #endregion /header */
+
+  /* #region hero*/
+  .hero .container{
+    display:block;
+  }
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+  }
+  .hero-header {
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
 }
