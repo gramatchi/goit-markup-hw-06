@@ -67,5 +67,23 @@
   .feature-item {
     width: calc((100% - 24px) / 2);
   }
+  /* #region team*/
+  .team-item{
+    max-width: 264px;
+  }
+.team-list{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    margin: 0;
+    justify-content: center;
+}
+
+.team img{
+    max-width: 264px;
+
+}
+
 
 }

@@ -87,4 +87,20 @@
     color: #434455;
   }
   /* #endregion /features*/
+
+/* #region team*/
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* #endregion /team*/
+
+
+
 }
