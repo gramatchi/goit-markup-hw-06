@@ -52,5 +52,20 @@
     font-size: 56px;
     line-height: 1.07;
   }
+/* #endregion /hero*/
+
+/* #region /features*/
+
+
+.features-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    min-height: 312px;
+  }
+  .feature-item {
+    width: calc((100% - 24px) / 2);
+  }
 
 }

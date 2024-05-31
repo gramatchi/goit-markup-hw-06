@@ -57,6 +57,34 @@
     margin-left: auto;
     margin-right: auto;
   }
+/* #endregion /hero*/
+  /* #region /features*/
+  /* #region /features*/
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
-  
+  .features-list {
+    gap: 24px;
+  }
+  .feature-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .feature-icon-container {
+
+    display: flex;
+
+  }
+  .features-item-title {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+    text-align: start;
+  }
+ 
+  .feature-description {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  /* #endregion /features*/
 }
