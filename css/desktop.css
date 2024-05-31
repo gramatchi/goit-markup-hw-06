@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1158px) {
+/* #region header */
+.container {
+    width: 1158px;
+    padding: 0 15px 0 15px;
+  }
+
+.logo {
+    margin-right: 76px;
+  }
+
+  .header .container {
+    display: flex;
+    align-items: center;
+    width: 1158px;
+    padding: 0 15px 0 15px;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 156px;
+    flex-grow: 1;
+  }
+  .header-address-list {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+  }
+  .header-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .header-address {
+    padding-top:0px;
+  }
+  /* #endregion /header */
+}

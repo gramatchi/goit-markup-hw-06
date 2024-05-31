@@ -1,0 +1,39 @@
+@media only screen and (min-width: 768px) {
+  /* #region header */
+  .container {
+    width: 768px;
+    min-height: 72px;
+  }
+  .logo {
+    margin-right: 120px;
+    padding-top: 0;
+  }
+  .header {
+    min-height: 72px;
+  }
+  .header .container {
+    justify-content: none;
+  }
+  .header-list {
+    display: flex;
+  }
+  .header-address {
+    font: 400 12px / 1.16667 "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    color: #434455;
+    display: flex;
+    padding-top:16px;
+  }
+  .header-address-link{
+    font: 400 12px / 1.16667 "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    color: #434455;
+    display: flex;
+  }
+
+  .burger-nav {
+    opacity: 0;
+    pointer-events: none;
+  }
+  /* #endregion /header */
+}
