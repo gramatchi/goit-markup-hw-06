@@ -140,5 +140,22 @@
 .subscribe-paragraph {
     text-align: start;
   }
+    /* #endregion */
+/* #region modal*/
 
+.modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+    min-height: 584px;
+    justify-content: center;
+  }
+  .input-name {
+    width: 360px;
+  }
+  .comment-input {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+  }
+ /* #endregion /footer*/
 }
