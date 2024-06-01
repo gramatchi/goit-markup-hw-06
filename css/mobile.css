@@ -516,3 +516,94 @@
     fill: #fff;
   }
   /* #endregion /footer*/
+
+  /* #region Mobile menu*/
+.menu-btn {
+    align-self: center;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .menu-container .menu-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border: 1px solid rgba(231, 233, 252, 1);
+    border-radius: 50%;
+  }
+  .menu-btn-icon {
+    display: block;
+    stroke: #111;
+  }
+  /* Start state */
+  .menu-container {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 16px 40px;
+    background-color: #fff;
+  
+    transform: translateX(100%);
+    transition: 300ms ease-in;
+    transition-property: transform;
+  }
+  /* Active state */
+  .menu-container.is-open {
+    transform: translateX(0);
+  }
+  .menu-list {
+    margin-bottom: auto;
+  }
+  .menu-list-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .menu-list-link {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    color: var(--NAVY-BLUE, #2e2f42);
+  }
+  .menu-list-link.active {
+    color: var(--OCEAN, #404bbf);
+  }
+  .menu-contacts {
+    margin-bottom: 48px;
+  }
+  .menu-contacts-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  .menu-contacts-link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    color: var(--SLATE, #434455);
+  }
+  .menu-contacts-link[href*='tel'] {
+    color: var(--IRIS, #4d5ae5);
+  }
+  @media screen and (hover: hover) {
+    .menu-contacts-link:hover,
+    .menu-contacts-link:focus {
+      color: red;
+    }
+  }
+  @media screen and not (hover: hover) {
+    .menu-contacts-link:active {
+      color: lightgreen;
+    }
+  }
+  
+  .menu-socials {
+    gap: 40px;
+  }
+  
+  /* #endregion */
