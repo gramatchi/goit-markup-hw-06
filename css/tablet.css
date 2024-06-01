@@ -112,4 +112,33 @@
     max-width: 356px;
 
 }
+  /* #endregion /portfolio*/
+
+/* #region footer*/
+.footer {
+    padding: 96px 0 96px;
+}
+
+.footer .container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 24px;
+    margin-left: 108px;
+}
+.logo-footer {
+    text-align: start;
+  }
+  .social-title {
+    text-align: start;
+  }
+  .subscribe-form {
+    flex-direction: row;
+}
+.subscribe-paragraph {
+    text-align: start;
+  }
+
 }
