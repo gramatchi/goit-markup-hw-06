@@ -101,6 +101,20 @@
 
   /* #endregion /team*/
 
+/* #region portfolio*/
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-list {
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .portfolio-item {
+    width: calc((100% - 48px) / 3);
+  }
 
 
 }
