@@ -135,8 +135,17 @@
     align-items: baseline;
     gap: 0;
     margin:0 auto;
+  flex-direction: row;
+  padding-left: 0px;
 }
-
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  align-items: baseline;
+}
+.footer-text{
+  margin-bottom: 0px;
+}
   .social-footer {
     margin-left: 120px;
   }
@@ -145,6 +154,9 @@
     margin-left: 80px;
   }
 
+  .footer .container {
+    flex-wrap: nowrap;
+}
   /* #endregion /footer*/
 
   /* #region modal*/
