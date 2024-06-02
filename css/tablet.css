@@ -35,6 +35,16 @@
     opacity: 0;
     pointer-events: none;
   }
+
+  .menu-btn {
+    margin-left: 0px;
+    margin-top:0px;
+    margin: 0 auto;
+    position: absolute;
+  }
+  .menu-container .menu-btn {
+    position: absolute;
+  }
   /* #endregion /header */
   /* #region hero*/
   .hero .container {
@@ -72,6 +82,9 @@
   }
   .feature-item {
     width: calc((100% - 24px) / 2);
+  }
+  .features-item-title {
+    text-align: left;
   }
   /* #region team*/
   .team-item{
@@ -126,13 +139,12 @@
 }
 
 .footer .container {
-    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: flex-start;
-    gap: 24px;
-    margin-left: 108px;
+    gap: 0px 24px;
+    padding-left: 108px;
 }
 .logo-footer {
     text-align: start;

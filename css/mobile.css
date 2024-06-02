@@ -290,12 +290,16 @@
   gap: 72px;
   margin-bottom: 72px;
 }
+.team-item:last-child .team-card {
+  margin-bottom: 0;
+}
 .team-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+
 .team-image {
   background-color: #ffffff;
   overflow: hidden;
@@ -450,9 +454,7 @@
   align-items: center;
 }
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+  font: 400 16px / 1.5 "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
@@ -555,14 +557,15 @@ input::placeholder {
   padding: 0;
   border: none;
   background-color: transparent;
-  position: absolute;
+
   top: 0;
   right: 0;
-  padding-right: 16px;
-  padding-top: 16px;
+
+  margin-left: 149px;
+  margin-top:8px;
 }
 .menu-container .menu-btn {
-  position: absolute;
+
   top: 24px;
   right: 24px;
   min-width: 24px;
@@ -570,7 +573,7 @@ input::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  position: absolute;
   border: 1px solid rgba(231, 233, 252, 1);
   border-radius: 50%;
   padding-right: 0;
